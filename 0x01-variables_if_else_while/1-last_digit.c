@@ -5,15 +5,14 @@
 /**
  * main - prints the last digit of number stored in the variable
  *
- * Description: using the main 
+ * Description: using the main
  * this program prints "The last digit of the number stored in a variable"
  *
- * Return 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
-	int l;
+	int n, l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
