@@ -13,7 +13,7 @@ int main(void)
 
 	for (tens = '0'; tens <= '9'; tens++) /*Increment tens*/
 	{
-		for (ones = (tens+1); ones <= '9'; ones++) /*ones's ten+1*/
+		for (ones = (tens + 1); ones <= '9'; ones++) /*ones's ten+1*/
 		{
 			putchar(tens);
 			putchar(ones);
