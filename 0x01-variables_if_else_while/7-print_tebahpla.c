@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdio.h> 
-#include <stdio.h> 
+#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - print alphabet reversed using putchar
@@ -10,9 +10,9 @@ int main(void)
 {
 	char alpha = 'z';
 
-	while(alpha >= 'a' )
+	while (alpha >= 'a')
 	{
-		putchar (alpha);
+		putchar (alpha:);
 		alpha--;
 	}
 		putchar('\n');
