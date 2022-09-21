@@ -8,28 +8,23 @@
  */
 int main(void)
 {
-	int c = 0;
-	int f_d;
-	int l_d;
+	int ones;
+	int tens;
 
-	while (c >= 99)
+	for (tens = '0'; tens <= '9'; tens++) /*Increment tens*/
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
-
-		if (f_d < l_d)
+		for (ones = (tens+1); ones <= '9'; ones++) /*ones's ten+1*/
 		{
-			putchar(f_d);
-			putchar(l_d);
+			putchar(tens);
+			putchar(ones);
 
-			if (c != 89)
+			if (tens != '8' || ones != '9') /*prints commas*/
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
-		c++;
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
