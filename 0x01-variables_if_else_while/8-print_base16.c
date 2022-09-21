@@ -8,19 +8,16 @@
  */
 int main(void)
 {
-	int n = '0';
+	char c;
 
-	int a_to_f = 'z';
-
-	while (n <= '9') /*prints 0-9*/
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(n);
-		n++;
+		putchar(c);
 	}
-	while (a_to_f <= 'f') /*prints a-f to finish hexbase*/
+
+	for (c = 'a'; c <= 'f'; c++) 
 	{
-		putchar(a_to_f);
-		a_to_f++;
+		putchar(c);
 	}
 		putchar('\n');
 		return (0);
