@@ -20,13 +20,13 @@ int main(void)
 			for (one = (ten + 1); one <= '9'; one++) /*ones*/
 			{
 				putchar(hundred);
-				putchar(ten); 
+				putchar(ten);
 				putchar(one);
-			       if (hundred != '7' || ten != '8' || one != '9')
+			 if (hundred != '7' || ten != '8' || one != '9')
 			       {
-			       		putchar(',');
-					putchar(' ');
-			       }	       
+			        putchar(',');
+				putchar(' ');
+			       }
 			}
 		}
 	}
