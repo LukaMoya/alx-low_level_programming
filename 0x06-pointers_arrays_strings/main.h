@@ -2,9 +2,9 @@
 #define MAIN.H
 
 /**
- * void prototypes()
- * int prototypes()
- * char prototypes()
+ * void prototypes();
+ * int prototypes();
+ * char prototypes();
  */
 int _putchar(char c);
 void reverse_array(int *a, int n);
