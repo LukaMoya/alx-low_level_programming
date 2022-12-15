@@ -10,3 +10,4 @@
 10. Write a function that prints the 9 times table, starting with 0.
 11. Write a function that adds two integers and returns the result.
 12. Write a function that prints all natural numbers from n to 98, followed by a new line.Numbers must be separated by a comma, followed by a space.Numbers should be printed in order.The first printed number should be the number passed to your function.The last printed number should be 98.You are allowed to use the standard library.
+13. Write a function that prints the n times table, starting with 0.If n is greater than 15 or less than 0 the function should not print anything.
